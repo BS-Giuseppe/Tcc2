@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(26, 24, 24);
+    z-index: 0;
+}
+   
+
+
+.nav-link{
+    color: rgb(133, 140, 184);
+}
+.navbar-brand{
+    color: rgb(133, 140, 184);
+}
+
+.Footer{
+height: 100px;
+width: 100%;
+background-color: rgb(21, 21, 44);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;  
+}
+
+.navbar-nav a:hover{
+    background-color: rgb(25, 25, 48);
+    color: black;
+}
+.navbar-nav a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:rgb(117, 176, 199);
+    
+}
+.d-inline-block{
+    height: 50px;
+    width: 150px;
+    margin-left: 100px;
+}
+.d-block{
+ width: 700px;  
+height: 700px;
+border-radius: 10px;  
+}
+.form-select{
+    width:10%;
+    
+}
+.buscar{
+    height: 10%;
+    
+}
+.menubusca{
+    
+    padding-left:20% ;
+    width:80%;
+    height: 10%;
+}
+.buscar h1{
+    color: black;
+    height: 10%;
+    width: 80%;
+    padding-left: 38%;
+}
+.locaçao{
+    padding-left:10% ;
+    background-color: white;
+    
+    
+}
+.L1{
+    background-color: black;
+    color: rgb(66, 76, 216);
+}
+.nav-item a:hover{
+    background-color: white;
+}
+.card2{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 2%;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.cardfooter2{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    border-radius: 2%;
+    
+}
+.cardimg2{
+    border-radius: 2%;
+}
+.cima{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    color: white;
+    
+}
+.nav.nav-tabs {
+    justify-content: center;
+    height: 70px;
+    
+    background-color: rgb(26, 24, 24);
+}
+.nav.nav-tabs  .nav-item  .nav-link {
+    
+    border: 4px solid rgb(2, 2, 2);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+
+.nav.nav-tabs .nav-item.dropdown .nav-link.dropdown-toggle{
+   width: 200px;
+    text-align: center;
+    background-color: rgb(21, 21, 44);
+}
+.nav.nav-tabs .nav-item.dropdown .nav-link.dropdown-toggle :hover{
+  /*corrigir esse hover, nao esta funcionando*/ 
+    background-color: rgb(167, 119, 119)
+}
+
+
+
+.Descrição{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 350px;
+    color: rgb(255,255,255);
+    border-top: solid 1px rgb(255, 255, 255);
+}
+.Descrição h3{
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+}
+.imgCard{
+    height: 250px;
+}
+.cards{
+    padding-left:50px;
+}

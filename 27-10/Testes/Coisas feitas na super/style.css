@@ -1,0 +1,341 @@
+body{
+    background-color: rgb(26, 24, 24);
+    z-index: 0;
+}
+   
+
+
+.nav-link{
+    color: rgb(133, 140, 184);
+}
+.navbar-brand{
+    color: rgb(133, 140, 184);
+}
+
+.Footer{
+height: 100px;
+width: 100%;
+background-color: rgb(21, 21, 44);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;  
+}
+
+.navbar-nav a:hover{
+    background-color: rgb(25, 25, 48);
+    color: black;
+}
+.navbar-nav a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:rgb(117, 176, 199);
+    
+}
+.d-inline-block{
+    height: 50px;
+    width: 150px;
+    margin-left: 100px;
+}
+.d-block{
+ width: 700px;  
+height: 700px;
+border-radius: 10px;  
+}
+.form-select{
+    width:10%;
+    
+}
+.buscar{
+    height: 10%;
+    
+}
+.menubusca{
+    
+    padding-left:20% ;
+    width:80%;
+    height: 10%;
+}
+.buscar h1{
+    color: black;
+    height: 10%;
+    width: 80%;
+    padding-left: 38%;
+}
+.locaçao{
+    padding-left:10% ;
+    background-color: white;
+    
+    
+}
+.L1{
+    background-color: black;
+    color: rgb(66, 76, 216);
+}
+.nav-item a:hover{
+    background-color: white;
+}
+.card2{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 2%;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.cardfooter2{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    border-radius: 2%;
+    
+}
+.cardimg2{
+    border-radius: 2%;
+}
+.cima{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    color: white;
+    
+}
+.nav.nav-tabs {
+    justify-content: center;
+    height: 70px;
+    
+    background-color: rgb(26, 24, 24);
+}
+.nav.nav-tabs  .nav-item  .nav-link {
+    
+    border: 4px solid rgb(2, 2, 2);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+
+.nav.nav-tabs .nav-item.dropdown .nav-link.dropdown-toggle{
+   width: 200px;
+    text-align: center;
+    background-color: rgb(21, 21, 44);
+}
+.nav.nav-tabs .nav-item.dropdown .nav-link.dropdown-toggle :hover{
+  /*corrigir esse hover, nao esta funcionando*/ 
+    background-color: rgb(167, 119, 119)
+}
+
+
+
+.Descrição{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 350px;
+    color: rgb(255,255,255);
+    border-top: solid 1px rgb(255, 255, 255);
+}
+.Descrição h3{
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+}
+
+
+.vitrine-imoveis{
+    background-color: #f4f6f8;
+}
+
+.vitrine-cabecalho{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.vitrine-acoes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.vitrine-controles{
+    display: flex;
+    gap: 8px;
+}
+
+.vitrine-controle{
+    display: grid;
+    width: 42px;
+    height: 42px;
+    place-items: center;
+    border: 1px solid #d6dee6;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #174e67;
+    font-size: 1.2rem;
+    transition: background-color 180ms ease, color 180ms ease;
+}
+
+.vitrine-controle:hover{
+    background-color: #174e67;
+    color: #fff;
+}
+
+.vitrine-controle:focus-visible,
+.vitrine-trilho:focus-visible{
+    outline: 3px solid #5b9ab2;
+    outline-offset: 3px;
+}
+
+.vitrine-eyebrow{
+    margin-bottom: 8px;
+    color: #64748b;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.vitrine-cabecalho h2{
+    margin-bottom: 8px;
+    color: #172033;
+    font-size: clamp(1.75rem, 3vw, 2.4rem);
+    font-weight: 700;
+}
+
+.vitrine-descricao{
+    max-width: 620px;
+    margin-bottom: 0;
+    color: #64748b;
+    line-height: 1.65;
+}
+
+.vitrine-link,
+.imovel-card-link{
+    color: #174e67;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.vitrine-link{
+    flex-shrink: 0;
+    padding-bottom: 4px;
+}
+
+.vitrine-link:hover,
+.imovel-card-link:hover{
+    color: #0d3447;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.imovel-card{
+    overflow: hidden;
+    border: 1px solid #e5e9ef;
+    border-radius: 14px;
+    background-color: #fff;
+    box-shadow: 0 8px 24px rgb(23 32 51 / 6%);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.vitrine-trilho{
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+    padding: 4px 2px 18px;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.vitrine-trilho::-webkit-scrollbar{
+    display: none;
+}
+
+.vitrine-trilho > .imovel-card{
+    flex: 0 0 calc(50% - 12px);
+    scroll-snap-align: start;
+}
+
+.imovel-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgb(23 32 51 / 12%);
+}
+
+.imovel-card-imagem{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.imovel-card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+.imovel-categoria{
+    margin-bottom: 12px;
+    color: #547081;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.imovel-card .card-title{
+    margin-bottom: 10px;
+    color: #172033;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.imovel-card .card-text{
+    margin-bottom: 20px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.imovel-card-link{
+    margin-top: auto;
+}
+
+@media (max-width: 575.98px){
+    .vitrine-cabecalho{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .vitrine-acoes{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .vitrine-trilho > .imovel-card{
+        flex-basis: 88%;
+    }
+
+    .imovel-card-imagem{
+        height: 210px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .vitrine-trilho > .imovel-card{
+        flex-basis: 72%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce){
+    .imovel-card,
+    .vitrine-controle{
+        transition: none;
+    }
+
+    .vitrine-trilho{
+        scroll-behavior: auto;
+    }
+}
